@@ -19,17 +19,21 @@ cd tz
 2. Установка зависимостей:
 
 composer install
+
 npm install
 
 3.Настройка окружения:
 
 cp .env.example .env
+
 php artisan key:generate
 
 4.Настройка базы данных в .env.
 
 DB_DATABASE=[имя вашей базы данных]
+
 DB_USERNAME=[имя пользователя]
+
 DB_PASSWORD=[пароль к БД]
 
 5. Запуск миграций:
